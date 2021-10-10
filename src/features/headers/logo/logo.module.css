@@ -1,0 +1,18 @@
+.logo_wrap {
+    position: relative;
+}
+
+.logo {
+    max-height: 144px;
+    max-width: 144px;
+}
+
+.logo_name {
+    position: absolute;
+    bottom: 41%;
+    left: 37%;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+}

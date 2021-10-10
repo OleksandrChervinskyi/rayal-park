@@ -1,0 +1,15 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav a {
+    font-size: 16px;
+    opacity: 70%;
+    color: #081F32;
+}
+
+.nav a:hover {
+    color: #1B75BB;
+}
+

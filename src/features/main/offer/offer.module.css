@@ -1,0 +1,92 @@
+.offer {
+
+}
+
+.main_offer {
+    margin-bottom: 48px;
+}
+
+.serenity {
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    color: #1B75BB;
+    margin-bottom: 15px;
+    opacity: 80%;
+}
+
+.credo {
+    font-size: 57px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.credo span {
+    color: #1B75BB;
+}
+
+.credo_under_text {
+    font-size: 18px;
+    line-height: 29px;
+    color: #081F32;
+    opacity: 0.6;
+    max-width: 347px;
+    margin-bottom: 30px;
+}
+
+.room_info {
+    display: flex;
+    justify-content: space-around;
+    max-width: 687px;
+    max-height: 110px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 27px 49px;
+}
+
+.room_info_chunk {
+    position: relative;
+    width: 118px;
+    border-right: 1px solid #9DACB8;
+}
+
+.room_info_chunk p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #081F32;
+    margin-bottom: 10px;
+}
+
+.room_info_chunk time {
+    font-weight: 400;
+    color: #081F32;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .room_info {
+        display: none;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+    .room_info {
+        flex-wrap: wrap;
+    }
+}
+
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+
+}
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
