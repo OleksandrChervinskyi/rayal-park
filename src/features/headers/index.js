@@ -6,9 +6,7 @@ import styles from './headers.module.css'
 
 export const Headers = () => {
     return (
-        <div className={styles.header}>
-
-
+        <header className={styles.header}>
             <Container>
                 <Row className="align-items-center">
                     <Col lg={3} md={4}>
@@ -22,6 +20,6 @@ export const Headers = () => {
                     </Col>
                 </Row>
             </Container>
-        </div>
+        </header>
     )
 }

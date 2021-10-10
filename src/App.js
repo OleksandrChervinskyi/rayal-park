@@ -16,25 +16,22 @@ function App() {
 
         <BrowserRouter>
             <div className="App">
-                <div className='first_screen'>
+                {/*// HEllo = {value}*/}
+                {/*//*/}
+                {/*// <button onClick={() => {*/}
+                {/*//         dispatch(inc())*/}
+                {/*//     }}>*/}
+                {/*//         Inc*/}
+                {/*//     </button>*/}
+                {/*//*/}
+                {/*//     <button onClick={() => {*/}
+                {/*//         dispatch(dec())*/}
+                {/*//     }}>*/}
+                {/*//         Dec*/}
+                {/*//     </button>*/}
+                <Headers/>
+                <Main/>
 
-
-                    {/*// HEllo = {value}*/}
-                    {/*//*/}
-                    {/*// <button onClick={() => {*/}
-                    {/*//         dispatch(inc())*/}
-                    {/*//     }}>*/}
-                    {/*//         Inc*/}
-                    {/*//     </button>*/}
-                    {/*//*/}
-                    {/*//     <button onClick={() => {*/}
-                    {/*//         dispatch(dec())*/}
-                    {/*//     }}>*/}
-                    {/*//         Dec*/}
-                    {/*//     </button>*/}
-                    <Headers/>
-                    <Main/>
-                </div>
             </div>
         </BrowserRouter>
     )
