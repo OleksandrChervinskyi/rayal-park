@@ -1,3 +1,32 @@
+h2 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 45px;
+    color: #081F32;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #081F32;
+}
+
+h4 {
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    color: #1B75BB;
+    opacity: 80%;
+}
+
+p {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    color: #081F32;
+    opacity: 0.6;
+}
+
 a {
     text-decoration: none !important;
 }
@@ -23,13 +52,9 @@ a {
     background: url("/src/app/pictures/headers/bg_header.png") no-repeat;
 }
 
-/*Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) {
 
-}
-
-/*Small devices (landscape phones, less than 768px)*/
-@media (max-width: 767.98px) {
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
 
 }
 
@@ -40,10 +65,21 @@ a {
     }
 }
 
-/*Large devices (desktops, less than 1200px)*/
-@media (max-width: 1199.98px) {
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
 
 }
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+}
+
+
+
+
+
+
 
 
 

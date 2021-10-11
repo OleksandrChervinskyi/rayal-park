@@ -17,9 +17,9 @@ export const VideoSection = () => {
                     </Col>
                     <Col md={6} lg={5}>
                         <div className={styles.video_descriptions}>
-                            <p>
+                            <h4>
                                 Dream holidays
-                            </p>
+                            </h4>
                             <h2>
                                 Enjoy unforgettable experiences in dream hotels.
                             </h2>

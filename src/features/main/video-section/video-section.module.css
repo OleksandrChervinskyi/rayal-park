@@ -28,21 +28,9 @@
 
 }
 
-.video_descriptions p {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
+.video_descriptions h4 {
     text-transform: uppercase;
-    color: #1B75BB;
-    opacity: 0.8;
     margin-bottom: 15px;
-}
-
-.video_descriptions h2 {
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 45px;
-    margin-bottom: 46px;
 }
 
 
@@ -67,12 +55,6 @@
         width: 280px;
         left: 21%;
     }
-}
-
-
-/*Small devices (landscape phones, less than 768px)*/
-@media (max-width: 767.98px) {
-
 }
 
 /*Extra small devices (portrait phones, less than 576px)*/

@@ -7,11 +7,7 @@
 }
 
 .serenity {
-    font-size: 20px;
-    letter-spacing: 0.1em;
-    color: #1B75BB;
     margin-bottom: 15px;
-    opacity: 80%;
 }
 
 .credo {
@@ -25,10 +21,6 @@
 }
 
 .credo_under_text {
-    font-size: 18px;
-    line-height: 29px;
-    color: #081F32;
-    opacity: 0.6;
     max-width: 347px;
     margin-bottom: 30px;
 }
@@ -76,17 +68,3 @@
     }
 }
 
-/* Medium devices (tablets, less than 992px)*/
-@media (max-width: 991.98px) {
-
-}
-
-/* Large devices (desktops, less than 1200px)*/
-@media (max-width: 1199.98px) {
-
-}
-
-/* Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
-
-}

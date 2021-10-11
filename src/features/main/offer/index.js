@@ -5,14 +5,14 @@ export const Offer = () => {
 
 
     return (
-        <div className={style.offer}>
+        <section className={style.offer}>
             <Container>
                 <Row>
                     <Col lg={5}>
                         <div className={style.main_offer}>
-                            <h3 className={style.serenity}>
+                            <h4 className={style.serenity}>
                                 Serenity
-                            </h3>
+                            </h4>
                             <h1 className={style.credo}>
                                 Stay with us feel like <span>home</span>.
                             </h1>
@@ -60,7 +60,7 @@ export const Offer = () => {
                     </Col>
                 </Row>
             </Container>
-        </div>
+        </section>
 
 
     )
