@@ -19,6 +19,13 @@ h4 {
     opacity: 80%;
 }
 
+h5 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    color: #081F32;
+}
+
 p {
     font-weight: normal;
     font-size: 18px;

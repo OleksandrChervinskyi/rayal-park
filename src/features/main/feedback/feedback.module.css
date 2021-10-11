@@ -1,0 +1,15 @@
+.section {
+    padding-bottom: 140px;
+}
+
+.descriptions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.cards {
+    padding: 28px 40px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
