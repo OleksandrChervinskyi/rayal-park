@@ -22,7 +22,7 @@ export const Feedback = () => {
                     </Col>
                 </Row>
                 <Row>
-                    <Col lg={4}>
+                    <Col lg={4} md={6}>
                         <div className={styles.cards}>
                             <img src={men1} alt="men1" className={styles.photo}/>
                             <p className={styles.feedback_text}>
@@ -36,7 +36,7 @@ export const Feedback = () => {
                             </p>
                         </div>
                     </Col>
-                    <Col lg={4}>
+                    <Col lg={4} md={6}>
                         <div className={styles.cards}>
                             <img src={men3} alt="men1" className={styles.photo}/>
                             <p className={styles.feedback_text}>
@@ -50,7 +50,7 @@ export const Feedback = () => {
                             </p>
                         </div>
                     </Col>
-                    <Col lg={4}>
+                    <Col lg={4} md={6}>
                         <div className={styles.cards}>
                             <img src={men2} alt="men3" className={styles.photo}/>
                             <p className={styles.feedback_text}>

@@ -10,7 +10,6 @@ export const BookNowBt = () => {
                     Book now
                 </Link>
             </button>
-
         </>
     )
 }

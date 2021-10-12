@@ -47,9 +47,17 @@ a {
     border: none;
 }
 
+.global_bt:hover {
+    background-color: transparent;
+    color: #1B75BB;
+    border: 1px solid #1B75BB;
+    transition: ease-in-out, 1s;
+}
+
 .global_bt a {
     color: #fff;
 }
+
 
 .App {
     /*font-family: Roboto, sans-serif;*/

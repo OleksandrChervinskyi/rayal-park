@@ -4,6 +4,7 @@ import {VideoSection} from "./video-section";
 import {Benefits} from "./benefits";
 import {Gallery} from "./gallery";
 import {Feedback} from "./feedback";
+import {Subscribe} from "./subscribe";
 
 export const Main = () => {
 
@@ -14,6 +15,7 @@ export const Main = () => {
             <Benefits/>
             <Gallery/>
             <Feedback/>
+            <Subscribe/>
         </main>
     )
 }

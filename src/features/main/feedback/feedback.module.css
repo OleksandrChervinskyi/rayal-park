@@ -23,7 +23,7 @@
 .cards:hover {
     opacity: 1;
     margin-top: -10px;
-    transition: ease 0.5s ;
+    transition: ease 0.5s;
 }
 
 .photo {
@@ -55,4 +55,22 @@
     font-size: 14px;
     line-height: 22px;
     color: #081F32;
+}
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+    .cards {
+        margin-bottom: 15px;
+    }
+}
+
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+
+}
+
+/*X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
 }
