@@ -1,5 +1,6 @@
 import styles from './subscribe.module.css'
 import {Col, Container, Row} from "react-bootstrap";
+import {InputButton} from "./input-button";
 
 export const Subscribe = () => {
     return (
@@ -19,12 +20,7 @@ export const Subscribe = () => {
                 </Row>
                 <Row>
                     <Col>
-                        <div className={styles.input_wrap}>
-                            <input type="text" placeholder={'Enter your email address'} className={styles.input}/>
-                            <button className='global_bt'>
-                                Subscribe
-                            </button>
-                        </div>
+                        <InputButton/>
                     </Col>
                 </Row>
             </Container>

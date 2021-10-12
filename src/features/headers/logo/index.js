@@ -5,8 +5,9 @@ export const Logo = () => {
 
     return (
         <div className={styles.logo_wrap}>
-            <img src={logo} alt="rayal-park" className={styles.logo}/>
+
             <span className={styles.logo_name}>
+                <img src={logo} alt="rayal-park" className={styles.logo}/>
                 Rayal Park
             </span>
         </div>

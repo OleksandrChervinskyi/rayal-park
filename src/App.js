@@ -5,6 +5,7 @@ import {dec, inc} from "./features/counter/counterSlice";
 import {Headers} from "./features/headers";
 import {BrowserRouter} from "react-router-dom";
 import {Main} from "./features/main";
+import {Footer} from "./features/footer";
 
 
 function App() {
@@ -31,7 +32,7 @@ function App() {
                 {/*//     </button>*/}
                 <Headers/>
                 <Main/>
-
+                <Footer/>
             </div>
         </BrowserRouter>
     )
